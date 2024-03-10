@@ -33,9 +33,9 @@ except:
     df_population = pd.read_csv('data/USA_UG_population.csv')
     df_standard = pd.read_csv('data/standard_population.csv')
 
-# Grab 2019 population (in 100,000s)
-us_population = df_population['tot_population'][(df_population['country']=='United States of America') & (df_population['year']==2019)].values[0]/100000
-ug_population = df_population['tot_population'][(df_population['country']=='Uganda') & (df_population['year']==2019)].values[0]/100000
+# Grab 2019 population in millions
+us_population = df_population['tot_population'][(df_population['country']=='United States of America') & (df_population['year']==2019)].values[0]/1000000
+ug_population = df_population['tot_population'][(df_population['country']=='Uganda') & (df_population['year']==2019)].values[0]/1000000
 
 # Calculate the crude death rate for each country
 us_crude_death_rate = df_death_rates['Death rate, United States, 2019'].sum()
