@@ -1,6 +1,6 @@
 # Run
 
-Execute src/mian.py to run the exercise. You should be able to read the output:
+Execute src/main.py to run the exercise. You should be able to read the output:
 
 ```bash
 Crude Death Rate (COPD) - United States: 2164.7 per 100,000 people
@@ -28,4 +28,4 @@ Please refer to the job advertisement on (OurWorldinData)[https://ourworldindata
 
 # Installation
 
-To fully replicate the repo, you can consider creating a venv with the _requiremetns.txt_ file. Please make sure you download the _.csv_ data files located in _/data_.
+To fully replicate the repo, you can consider creating a venv with the _requirements.txt_ file. Please make sure you download the _.csv_ data files located in _/data_.
